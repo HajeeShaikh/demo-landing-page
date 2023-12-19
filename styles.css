@@ -1,0 +1,278 @@
+@font-face {
+    font-family: 'Metropolis-Light';
+    src: url('/fonts/metropolis.light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis-Semibold';
+    src: url('/fonts/metropolis.semi-bold.woff2') format('woff2');
+    font-weight: 500;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('/fonts/Inter-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Semibold';
+    src: url('/fonts/Inter-SemiBold.woff2') format('woff2');
+    font-weight: 500;
+    font-style: bold;
+}
+
+.body {
+    height: 100vh !important;
+    width: 100vw !important;
+    margin: auto !important;
+    padding: 0;
+}
+
+.divider-main {
+    max-width: 40.375rem;
+    /* min-height: 46.75rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem !important;
+}
+
+.divider {
+    width: 5.87475rem;
+    height: 0.0565rem;
+    max-width: 5.87475rem;
+    max-height: 0.0565rem;
+    background: #C8C8C8;
+}
+
+.dividerText {
+    color: #007F61;
+    font-family: 'Metropolis-Semibold', sans-serif;
+    font-size: 1.12975rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0.85rem;
+    margin-right: 0.85rem;
+}
+
+.onePair {
+    margin-top: 1.13rem;
+    max-width: 21.29588rem;
+    /* max-height: 4.632rem; */
+    /* flex-shrink: 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.22594rem;
+    border: 0.904px solid #C8C8C8;
+    background: #FFF;
+}
+
+.radioButton > input {
+    width: 0.90381rem;
+    height: 0.90381rem;
+    margin-left: 1.36rem !important;
+
+}
+
+.discount {
+    margin-right: 1.36rem;
+    color: #000;
+    font-family: 'Metropolis-Semibold' !important;
+    font-size: 0.90381rem !important;
+    font-weight: bold !important;
+}
+
+.DKK_Text {
+    color: #000;
+    font-family: 'Metropolis-Semibold' !important;
+    font-size: 0.90381rem !important;
+    font-weight: bold !important;
+}
+
+.pairText {
+    color: #000;
+    font-family: 'Metropolis-Light' !important;
+    font-size: 0.90381rem !important;
+    font-weight: normal !important;
+}
+
+.onePairText1 {
+    margin-left: -6rem
+}
+
+.twoPairMain {
+    max-width: 21.3125rem;
+    /* min-height: 10.125rem; */
+    border-radius: 0.22594rem;
+    border: 0.904px solid #007F61;
+    background: #F4FBF9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.11rem;
+}
+
+.twoPair {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.innerDropdowns {
+    max-width: 12rem;
+    margin-left: 1.36rem;
+
+}
+
+#dropdown {
+    width: 4.3rem;
+}
+
+.dropdownSecond {
+    margin-top: 0.45rem;
+}
+
+.headerText1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerText2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerText3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.45rem;
+    margin-bottom: 1.26rem;
+}
+
+.SizeH {
+    /* margin-left: -6rem; */
+}
+
+.ColorH {
+    /* margin-left: -6rem; */
+}
+
+.strikedText {
+    color: #000;
+    font-family: 'Inter-Regular' !important;
+    font-size: 0.62138rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    place-content: center;
+    margin-top: -0.9rem !important;
+    opacity: 0.3;
+}
+
+.threePair {
+    margin-top: 1.13rem;
+    max-width: 21.29588rem;
+    max-height: 4.632rem;
+    /* flex-shrink: 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.22594rem;
+    border: 0.904px solid #C8C8C8;
+    background: #FFF;
+}
+
+.shippingData {
+    max-width: 21.29588rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 1.54rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mostPopular {
+    color: #007F61;
+    font-family: 'Inter-SemiBold' !important;
+    font-size: 0.79081rem;
+    /* font-style: normal; */
+    font-weight: 600;
+    line-height: normal;
+}
+
+.first {
+    color: #007F61;
+    font-family: 'Inter-Regular' !important;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.secondTotal {
+    color: #000;
+    font-family: 'Inter-Regular' !important;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.secondDKK {
+    color: #000;
+    font-family: 'Inter-Semibold' !important;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.bottomButton {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.addToCartButton {
+    color: #FFF;
+    font-family: 'Inter-Regular' !important;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 21.3125rem;
+    height: 3rem;
+    border-radius: 0.25rem 0.25rem 0.25rem 0rem;
+    background: #007F61;
+
+}
+
+.copyrightText {
+    max-width: 21.3125rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic !important;
+    font-family: 'Inter-Regular' !important;
+}
